@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multi-calendar</title>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <!-- Calendar section -->
+    <div>
+      <div class="calendar">
+        <div class="calendar-header">
+          <button id="prev">&#8249;</button>
+          <h2 id="month-year">Month Year</h2>
+          <button id="next">&#8250;</button>
+        </div>
+        <div class="calendar-grid day-names">
+          <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+        </div>
+        <div class="calendar-grid" id="dates"></div>
+      </div>
+      <div id="event-list">
+        <h3>Events</h3>
+        <p>Select a date to view events.</p>
+      </div>
+
+      <div>
+        <h3>Other Useful APIs</h3>
+        <div>
+          <a href="">Remove Gmail User</a>
+          <a href="">API Reference</a>
+        </div>
+      </div>
+    </div>
+    <!-- Sidebar with tabs -->
+    <div class="sidebar">
+      <div class="tab" id="all-tab" title="All">All</div>
+      <div class="tab" id="google-tab" title="Google">
+        <img src="images/google-icon.png" alt="Google" />
+      </div>
+      <div class="tab" id="microsoft-tab" title="Microsoft">
+        <img src="images/microsoft-icon.png" alt="Microsoft" />
+      </div>
+    </div>
+  </div>
+  <!-- Link to external JavaScript file -->
+  <script src="calendars.js"></script>
+  <script src="integrations.js"></script>
+</body>
+</html>
