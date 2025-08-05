@@ -2,6 +2,12 @@
 
 A sample calendar application that provides an example of how to integration multiple calendars using Interactor. The calendar has interface for viewing and managing events from multiple calendar sources.
 
+## Demo
+
+### [Try Demo](https://interactoross.github.io/multi-calendar-integrations/)
+
+[![Interactor Multi Calendar Integration](./images/readme-demo.png)](https://interactoross.github.io/multi-calendar-integrations/)
+
 ## Features
 
 - **Interactive Calendar View**: Clean, navigable monthly calendar with today highlighting
